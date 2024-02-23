@@ -37,9 +37,9 @@ Here is the link to the webpage: [MTA Bus service Delivered: 2015-2019](https://
 - The other scrubbing I did was to completely remove the period column, because every record had the same value, and on the systemwide record row it was not necessary either.
 
 ### Links to data files
-- The raw data from the source - [MTA Bus service data](data\mta_data.csv)
-- The munged data- [Cleaned up data file](data\clean_data.csv)
-- SPreadsheet file- [Excel file with analysis](data\analysis.xlsx)
+- The raw data from the source - [MTA Bus service data](https://drive.google.com/file/d/17dgr2tyx6_93027JDnmxGm6Pza9B7OmT/view?usp=drive_link)
+- The munged data- [Cleaned up data file](https://drive.google.com/file/d/134WxhqUF-Sgnx4FcFE7DYtOyVKD3FptM/view?usp=drive_link)
+- Spreadsheet file- [Excel file with analysis](https://docs.google.com/spreadsheets/d/1W9dNrOOUAwffJOhX9_7CNFn7eUk6ioRu/edit?usp=drive_link&ouid=104316166021361528428&rtpof=true&sd=true)
 
 
 ## Analysis
@@ -80,3 +80,6 @@ _IT IS IMPORTANT TO NOTE THAT THE DATA IS FOR SERVICES DURING PEAK HOURS AND NOT
 
 
 - The results in the pivot table show the varying number of schedulede and actual number of buses that run for a given month seperated by weekends(1) and weekdays(2), similar to the analysis done ableve, but more visually pleasing. I assumed that the number of buses running on the weekends would be higher for the touristy months in NYC, but that is not the case and there is no correlation from year to year. It doesnt follow any pattern!
+
+## EXTRA CREDIT
+_This assignment deserves extra credit because of the very large size of the data _and also my effort to use requests library to pull the data from the webpage(although unsuccessful). If you go to the MTA data page you will see a Export button on top and i tried to extract the data using beautiful soup in this webpage , but failed to do it. I also tried to go to the data page from the webpage where the data is visible, but only 50 rows per page and i didnt know how to move to the next page using beautiful soup
