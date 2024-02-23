@@ -1,1 +1,1 @@
-Place your selected data files into this directory.
+# Place all the data files in this directory
